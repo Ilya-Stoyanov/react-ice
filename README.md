@@ -198,4 +198,10 @@ exit={{ y: -10, opacity: 0 }}
 transition={{ duration: 0.4 }}
 ```
 
+## Deploy  project
+- https://app.netlify.com/
+- add new repo on GitHub
+- import project to netlify 
+- connection with git repo 
+
 [Like and subscribe video]()  
