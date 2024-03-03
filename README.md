@@ -47,7 +47,7 @@ const [isActive, setActive] = useState(false)
 <div className={isActive ? "burger active": "burger"} onClick={handleToggle}></div>
 ```
 
-## next step activate button to top 
+## Next step activate button to top 
 - add component ScrollToTop
 - add useEffect and useState
 - npm i react-icons
@@ -65,7 +65,7 @@ const goToTop = () => {
     });
 };
 ```
-## add useEffect
+## Add useEffect
 ```bash
 useEffect(() => {
     window.addEventListener('scroll', () => {
@@ -87,7 +87,7 @@ useEffect(() => {
 
 ```
 
-## прокрутка до нужной секции по клику
+## Scroll to the section by clicking
 - add function scrollToSection  
 - change name in menu and add id
 
@@ -127,7 +127,7 @@ const handleFilter = category =>{
     }
 }
 ```
-## !important name category must be uppercase like array button
+## Name category must be uppercase like Array buttons ICE CREAM => ICE CREAM !Important 
 ```bash
 import images from "./constants/data"
 
@@ -182,13 +182,13 @@ const productsList = [
 export default productsList
 ```
 
-## add motion Product
+## Add motion Product
 
 ```bash
 import {motion, AnimatePresence} from "framer-motion"
 
 ```
-## add motion Card 
+## Add motion Card 
 ```bash
 import { motion } from 'framer-motion'
 
