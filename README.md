@@ -18,17 +18,17 @@ npm npm i
 npm run dev
 ```
 
-## add components Header Hero Delivery Details Product Application Question Footer
+## Add components Header Hero Delivery Details Product Application Question Footer
 we have also folder constants were we have export all images
 
-## next step we import section from index html to our components
+## Next step we import section from index html to our components
 - change class to className
 - change way for images
 - remember single tag must be have / 
 - add all components in App jsx 
 - remove App.css
 
-## next step burger menu
+## Next step burger menu
 - add useState
 - change way for icon in css
 
